@@ -1,0 +1,25 @@
+{
+  "name": "goodwill-auction-tracker",
+  "version": "1.0.0",
+  "description": "An app designed to allow users to add and track good will auctions and their expiration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericc97/goodwill-auction-tracker.git"
+  },
+  "author": "Eric Coleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ericc97/goodwill-auction-tracker/issues"
+  },
+  "homepage": "https://github.com/ericc97/goodwill-auction-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "inquirer": "^8.2.0",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.15.0"
+  }
+}
